@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Log in" skipped="0" tests="1" time="20.57" timestamp="2018-10-14T08:33:49.986+01:00[Europe/London]"><testcase name="Login Scenario1"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'DNA.local', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DNA.local', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DNA.local', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+com.selenium.pages.PageObjectClient.clickButton(PageObjectClient.java:32)
+com.selenium.pages.LoginPage.clickLogin(LoginPage.java:43)
+com.selenium.stepDefinitions.LoginStepdefs.iSelectLogin(LoginStepdefs.java:28)
+✽.I select Login(src/test/resources/features/login.feature:6)
+</system-err></testcase></testsuite>

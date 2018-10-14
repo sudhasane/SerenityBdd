@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.selenium.run.TestCukes
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 48.661 s <<< FAILURE! - in com.selenium.run.TestCukes
+Login Scenario1(Log in)  Time elapsed: 46.641 s  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+Caused by: net.thucydides.core.webdriver.UnsupportedDriverException: 
+Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DNA.local', ip: '10.33.76.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting 45 seconds for Firefox to start.
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DNA.local', ip: '10.33.76.219', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:22398/hub/status] to be available after 45001 ms
+Caused by: java.util.concurrent.TimeoutException
+
