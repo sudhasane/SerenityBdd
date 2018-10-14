@@ -29,7 +29,7 @@ public class LoginPage extends PageObjectClient {
     private WebElement loginButton;
 
     public void gToHomePage(){
-        //getDriver().get("https://www.facebook.com/");
+        getDriver().get("https://www.facebook.com/");
     }
 
     public void enterUnAndPw(String Uname, String Pword){
